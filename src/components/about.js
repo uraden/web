@@ -9,7 +9,7 @@ function About() {
         <div className="container">
             <div className="header-wrapper"> 
                 <h2 className='react-reveal'>
-                    "hi,  I am Jamoliddin "
+                    "hi,  I am Jamal "
                     <span role="img" aria-label="Emoji">👋</span>
                 </h2>
                 <br/>
