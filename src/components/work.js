@@ -13,7 +13,7 @@ function Work() {
                 <div className="grid">
                 
                 
-                <div className="react-reveal card1">
+                <div className="react-reveal card">
                     
                 
                         <div className="card-des">
@@ -35,8 +35,8 @@ function Work() {
                         <div className="card-des">
                             <img className="image--img" src="https://i.ibb.co/6FkPQCq/Webp-net-resizeimage.jpg" />
                             <div className="image--overlay">
-                                <div className="image--title"> OBJECT DETECTION </div>
-                                <button className="btn-project"> <Link to='/detectobject' style={{ textDecoration: 'none', color: 'white'}} > EXPLORE </Link>  </button>
+                                <div className="image--title"> Object Detection </div>
+                                <button className="btn-project"> <Link to={{pathname:'https://uraden.github.io/detectobject'}} target="_blank" style={{ textDecoration: 'none', color: 'white'}} > EXPLORE </Link>  </button>
                                 <p className="image--description"> This app will help you to detect the object</p>
                             </div>
                         
@@ -51,7 +51,7 @@ function Work() {
                             <img className="image--img" src="https://i.ibb.co/J5ww92t/Webp-net-resizeimage-1.jpg" />
                             <div className="image--overlay">
                                 <div className="image--title"> Tic-Tac-Toe </div>
-                                <button className="btn-project"> <Link to='/tictactoe' style={{ textDecoration: 'none', color: 'white'}} > EXPLORE </Link></button>
+                                <button className="btn-project"> <Link to={{pathname:'https://uraden.github.io/tictactoe'}} target="_blank" style={{ textDecoration: 'none', color: 'white'}} > EXPLORE </Link></button>
                                 <p className="image--description"> You can play tic-tac-toe game here </p>
                             </div>
                         
@@ -80,7 +80,7 @@ function Work() {
                         <img className="image--img" src="https://i.ibb.co/s9mrFps/Webp-net-resizeimage-3.jpg" />
                         <div className="image--overlay">
                             <div className="image--title"> Google Map </div>
-                            <button className="btn-project"> <Link to='/map' style={{ textDecoration: 'none', color: 'white'}} > EXPLORE </Link></button>
+                            <button className="btn-project"> <Link to={{pathname:'https://uraden.github.io/maps/'}} target="_blank" style={{ textDecoration: 'none', color: 'white'}} > EXPLORE </Link></button>
                             <p className="image--description"> You can find the any distination you want with drag ad drop</p>
                         </div>
                     
@@ -95,7 +95,7 @@ function Work() {
                         <img className="image--img" src="https://i.ibb.co/VNXLdHD/Webp-net-resizeimage-4.jpg" />
                         <div className="image--overlay">
                             <div className="image--title"> Drag & Drop </div>
-                            <button className="btn-project"> <Link to='/dnd' style={{ textDecoration: 'none', color: 'white'}} > EXPLORE </Link></button>
+                            <button className="btn-project"> <Link to={{pathname:'https://uraden.github.io/dragndrop'}} target='_blank'style={{ textDecoration: 'none', color: 'white'}} > EXPLORE </Link></button>
                             <p className="image--description"> Drag and Drop your Tasks</p>
                         </div>
                     
@@ -104,6 +104,18 @@ function Work() {
 
              
 
+                <div className="react-reveal card">
+                    
+                    <div className="card-des">
+                        <img className="image--img" src="https://i.ibb.co/Thsgn8T/logo.png" />
+                        <div className="image--overlay">
+                            <div className="image--title"> Covid Tracker </div>
+                            <button className="btn-project"> <a href='https://uraden.github.io/covid/'  style={{ textDecoration: 'none', color: 'white'}} > EXPLORE </a></button>
+                            <p className="image--description"> Get updated by Covid-Cases </p>
+                        </div>
+                    
+                    </div>
+                </div>
 
                     
                 
