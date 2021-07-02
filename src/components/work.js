@@ -110,7 +110,7 @@ function Work() {
                         <img className="image--img" src="https://i.ibb.co/Thsgn8T/logo.png" />
                         <div className="image--overlay">
                             <div className="image--title"> Covid Tracker </div>
-                            <button className="btn-project"> <a href='https://uraden.github.io/covid/'  style={{ textDecoration: 'none', color: 'white'}} > EXPLORE </a></button>
+                            <button className="btn-project"> <a href='https://uraden.github.io/covid/' target="_blank" style={{ textDecoration: 'none', color: 'white'}} > EXPLORE </a></button>
                             <p className="image--description"> Get updated by Covid-Cases </p>
                         </div>
                     
