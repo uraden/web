@@ -20,7 +20,7 @@ function Work() {
                             <img className="image--img" src="https://i.ibb.co/7C7mB7Y/yuwe.png" />
                             <div className="image--overlay">
                                 <div className="image--title"> QUIZ </div>
-                                <button className="btn-project" ><Link to='/quiz' style={{ textDecoration: 'none', color: 'white'}} > EXPLORE </Link> </button>
+                                <button className="btn-project" ><Link to={{pathname:'https://uraden.github.io/quiz/'}} target='_blank' style={{ textDecoration: 'none', color: 'white'}} > EXPLORE </Link> </button>
                                 <p className="image--description"> You will be asked differnt questions</p>
                             </div>
                         
@@ -66,7 +66,7 @@ function Work() {
                         <img className="image--img" src="https://i.ibb.co/zfRn4pq/Webp-net-resizeimage-2.jpg" />
                         <div className="image--overlay">
                             <div className="image--title"> GIPHY </div>
-                            <button className="btn-project"> <Link to='/giphy' style={{ textDecoration: 'none', color: 'white'}} > EXPLORE </Link></button>
+                            <button className="btn-project"> <Link to={{pathname:'https://uraden.github.io/giphy/'}} target="_blank" style={{ textDecoration: 'none', color: 'white'}} > EXPLORE </Link></button>
                             <p className="image--description"> Find the gif you like </p>
                         </div>
                     
