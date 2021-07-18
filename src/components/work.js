@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './work.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom' ;
+
 import {Link} from 'react-router-dom'
 
 function Work() {
