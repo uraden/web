@@ -16,7 +16,7 @@ function App() {
             <Route path="/" exact  component ={AppComponent} />
            
         </Switch>
-  </Router>
+   </Router>
    
     </div>
   );

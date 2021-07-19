@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './work.css';
+import { ExternalLink } from 'react-external-link';
 
 import {Link} from 'react-router-dom'
 
@@ -20,13 +21,17 @@ function Work() {
                             <img className="image--img" src="https://i.ibb.co/7C7mB7Y/yuwe.png" />
                             <div className="image--overlay">
                                 <div className="image--title"> QUIZ </div>
-                                <button className="btn-project" ><Link to={{pathname:'https://uraden.github.io/quiz/'}} target='_blank' style={{ textDecoration: 'none', color: 'white'}} > EXPLORE </Link> </button>
+                                <button className="btn-project" >
+                                    
+                                <ExternalLink href="https://uraden.github.io/quiz/"  style={{ textDecoration: 'none', color: 'white'}}>
+                                     EXPLORE 
+                                </ExternalLink> 
+                                
+                                </button>
                                 <p className="image--description"> You will be asked differnt questions</p>
                             </div>
                         
                         </div>
-                  
-                    
                 </div>
 
 
@@ -36,7 +41,11 @@ function Work() {
                             <img className="image--img" src="https://i.ibb.co/6FkPQCq/Webp-net-resizeimage.jpg" />
                             <div className="image--overlay">
                                 <div className="image--title"> Object Detection </div>
-                                <button className="btn-project"> <Link to={{pathname:'https://uraden.github.io/detectobject'}} target="_blank" style={{ textDecoration: 'none', color: 'white'}} > EXPLORE </Link>  </button>
+                                <button className="btn-project"> 
+                                <ExternalLink href="https://uraden.github.io/detectobject"  style={{ textDecoration: 'none', color: 'white'}}>
+                                     EXPLORE 
+                                </ExternalLink>
+                                </button>
                                 <p className="image--description"> This app will help you to detect the object</p>
                             </div>
                         
@@ -51,7 +60,13 @@ function Work() {
                             <img className="image--img" src="https://i.ibb.co/J5ww92t/Webp-net-resizeimage-1.jpg" />
                             <div className="image--overlay">
                                 <div className="image--title"> Tic-Tac-Toe </div>
-                                <button className="btn-project"> <Link to={{pathname:'https://uraden.github.io/tictactoe'}} target="_blank" style={{ textDecoration: 'none', color: 'white'}} > EXPLORE </Link></button>
+                                <button className="btn-project"> 
+                                
+                                <ExternalLink href="https://uraden.github.io/tictactoe"  style={{ textDecoration: 'none', color: 'white'}}>
+                                     EXPLORE 
+                                </ExternalLink>
+         
+                                </button>
                                 <p className="image--description"> You can play tic-tac-toe game here </p>
                             </div>
                         
@@ -66,7 +81,13 @@ function Work() {
                         <img className="image--img" src="https://i.ibb.co/zfRn4pq/Webp-net-resizeimage-2.jpg" />
                         <div className="image--overlay">
                             <div className="image--title"> GIPHY </div>
-                            <button className="btn-project"> <Link to={{pathname:'https://uraden.github.io/giphy/'}} target="_blank" style={{ textDecoration: 'none', color: 'white'}} > EXPLORE </Link></button>
+                            <button className="btn-project"> 
+
+                            <ExternalLink href="https://uraden.github.io/giphy/"  style={{ textDecoration: 'none', color: 'white'}}>
+                                     EXPLORE 
+                            </ExternalLink>
+                      
+                            </button>
                             <p className="image--description"> Find the gif you like </p>
                         </div>
                     
@@ -80,7 +101,13 @@ function Work() {
                         <img className="image--img" src="https://i.ibb.co/s9mrFps/Webp-net-resizeimage-3.jpg" />
                         <div className="image--overlay">
                             <div className="image--title"> Google Map </div>
-                            <button className="btn-project"> <Link to={{pathname:'https://uraden.github.io/maps/'}} target="_blank" style={{ textDecoration: 'none', color: 'white'}} > EXPLORE </Link></button>
+                            <button className="btn-project"> 
+                            
+                            <ExternalLink href="https://uraden.github.io/maps/"  style={{ textDecoration: 'none', color: 'white'}}>
+                                     EXPLORE 
+                            </ExternalLink>
+                            
+                            </button>
                             <p className="image--description"> You can find the any distination you want with drag ad drop</p>
                         </div>
                     
@@ -95,7 +122,13 @@ function Work() {
                         <img className="image--img" src="https://i.ibb.co/VNXLdHD/Webp-net-resizeimage-4.jpg" />
                         <div className="image--overlay">
                             <div className="image--title"> Drag & Drop </div>
-                            <button className="btn-project"> <Link to={{pathname:'https://uraden.github.io/dragndrop'}} target='_blank'style={{ textDecoration: 'none', color: 'white'}} > EXPLORE </Link></button>
+                            <button className="btn-project"> 
+                            
+                            <ExternalLink href="https://uraden.github.io/dragndrop"  style={{ textDecoration: 'none', color: 'white'}}>
+                                     EXPLORE 
+                            </ExternalLink>
+                            
+                            </button>
                             <p className="image--description"> Drag and Drop your Tasks</p>
                         </div>
                     
@@ -110,19 +143,21 @@ function Work() {
                         <img className="image--img" src="https://i.ibb.co/Thsgn8T/logo.png" />
                         <div className="image--overlay">
                             <div className="image--title"> Covid Tracker </div>
-                            <button className="btn-project"> <a href='https://uraden.github.io/covid/' target="_blank" style={{ textDecoration: 'none', color: 'white'}} > EXPLORE </a></button>
+
+                            <button className="btn-project"> 
+                            
+                            
+                            <ExternalLink href="https://uraden.github.io/covid/"  style={{ textDecoration: 'none', color: 'white'}}>
+                                     EXPLORE 
+                            </ExternalLink>
+                            
+                            </button>                            
+                            
                             <p className="image--description"> Get updated by Covid-Cases </p>
                         </div>
-                    
                     </div>
                 </div>
-
-                    
-                
-                
-                
-                </div>    
-
+                    </div>    
                 </div>   
             </div>
 
