@@ -1,26 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-
-*{
+* {
     font-family: Montserrat;
 }
 
-
 @keyframes transitionIn {
-    from{
+    from {
         opacity: 0;
         transform: translate(0, 5%)
     }
-
-    to{
+    to {
         opacity: 1;
         transform: rotateX(0);
     }
 }
 
-.container{
+.container {
     animation: transitionIn 1.5s;
 }
 
+.typic {
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
 
 .container {
     display: block;
@@ -38,11 +42,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
-
-
-
 
 .header-wrapper h2 {
     font-size: 1rem;
@@ -59,12 +59,12 @@ h2 {
     font-weight: bold;
 }
 
-
 .header-wrapper p {
     width: 50%;
     text-align: center;
     overflow: hidden;
 }
+
 p {
     display: block;
     margin-block-start: 1em;
@@ -86,38 +86,52 @@ p {
     letter-spacing: 2px;
 }
 
-.primary-btn:hover{
+.primary-btn:hover {
     letter-spacing: 4px;
     opacity: 0.7;
     border-radius: 10px;
     padding: 10px;
     transition: 0.5s;
-    
+}
+
+.redtype {
+    color: red;
+}
+
+.heead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 2px;
 }
 
 .header-wrapper .heading-wrapper h1 {
-    font-size: 4rem;
-    text-align: center;
-    line-height: 20px;
-    padding: 5px;
+    font-size: 4rem !important;
+    text-align: center !important;
+    line-height: 20px !important;
+    padding: 5px !important;
+    margin: 1px;
 }
 
+.head-disc3 {
+    padding: 20px
+}
 
-.basic-bio{
+.basic-bio {
     font-size: 15px;
 }
 
-@media (min-width: 768px) and (max-width: 1023px){
+@media (min-width: 768px) and (max-width: 1023px) {
     .header-wrapper .heading-wrapper h1 {
         font-size: 2.5rem;
     }
-    
 }
 
-@media (min-width: 390px) and (max-width: 767px){
+@media (min-width: 390px) and (max-width: 767px) {
     .header-wrapper .heading-wrapper h1 {
         font-size: 1.5rem;
         line-height: 10px;
     }
 }
-
